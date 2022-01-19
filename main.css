@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/*General*/
+body{
+    background-color: #FAEBD7;
+}
+a{
+    color: #6495ED;
+    text-decoration: none;
+}
+a:active{
+    color: #DEB887;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    font-family: Helvetica, Arial, sans-serif;
+}
+/*Header*/
+header{
+    background: #6495ED;
+    text-align: right; 
+    padding: 1em;
+}
+header h1 a{
+    color: #FAEBD7;
+    }
+header h1 a:hover{
+    color: #FAEBD7;
+    
+}
+ul li a{
+    color: #FAEBD7;
+        
+}
+/*Navigation*/
+nav ul{
+    list-style-type: none;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*Article Content*/
+.post-date{
+    opacity: .70;
+    padding: 1em 1em 0 1em;
+}
+article{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 2px 4px 15px rgb(138, 137, 137) ;
+}
+article, .post-content{
+    display: block;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 75vw;
+}
+.post-content{
+    text-align: center;
+    padding: 0 1em 1em 1em;
+    
+}
+article img{
+    width: 75%;
+    padding-top: 1em;
+}
+article h2 a{
+    color: black;
+}
+article h2 a:hover{
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 850px){
+    header{
+        float: left;
+        height: 100%;
+        width: 200px;
+    }
+   
+    article{
+        margin-left: 30%;
+        width: 400px;
+        margin-bottom: 1em;
+    }
+    article:last-child{
+        margin-top: 5%;
+    }
+}
