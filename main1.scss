@@ -99,10 +99,8 @@ article{
 }
 
 .post-content{
-    display: block;
+    @include center-block();
     background-color: white;
-    margin-right: auto;
-    margin-left: auto;
     max-width: 75vw;
     text-align: center;
     padding: 0 1em 1em 1em;
